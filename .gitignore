@@ -3,4 +3,5 @@ settings.json
 settings.development.json
 settings.production.json
 .sass
+.c9
 sass_options.json
