@@ -21,6 +21,7 @@ Template.trending.rendered = function () {
 
 Template.trending.helpers({
   products: function () {
-    return Products.find({}, {sort: {numberOfVotes: -1, name: -1}});
+    //return Products.find({}, {sort: {numberOfVotes: -1, name: -1}});
+    return Meteor.user().votedProducts();
   }
 });
