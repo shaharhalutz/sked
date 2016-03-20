@@ -2,6 +2,10 @@ Router.route('/', {
   name: 'trending'
 });
 
+Router.route('/browse', {
+  name: 'browse'
+});
+
 Router.route('/recent', {
   name: 'recent'
 });

@@ -4,6 +4,8 @@ AppController = RouteController.extend({
 
 TrendingController = AppController.extend({});
 
+BrowseController = AppController.extend({});
+
 RecentController = AppController.extend({});
 
 ProductsShowController = AppController.extend({});
