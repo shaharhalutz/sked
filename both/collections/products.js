@@ -36,7 +36,7 @@ Products.attachSchema(new SimpleSchema({
     type: String,
     autoform: {
       'label-type': 'placeholder',
-      placeholder: 'Product URL'
+      placeholder: 'Web Site (example: www.myService.com)'
     },
     max: 200
   },
@@ -44,7 +44,7 @@ Products.attachSchema(new SimpleSchema({
     type: String,
     autoform: {
       'label-type': 'placeholder',
-      placeholder: 'Product Name'
+      placeholder: 'Name'
     },
     max: 200
   },
